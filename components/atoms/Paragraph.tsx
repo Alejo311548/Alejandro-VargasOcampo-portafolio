@@ -1,11 +1,15 @@
-
 interface ParagraphProps {
-  children: React.ReactNode;
-  className?: string;
+  children: React.ReactNode;   // Contenido que se mostrará dentro del párrafo (texto o elementos React)
+  className?: string;          // Clases CSS opcionales para personalizar el estilo del párrafo
 }
 
 export default function Paragraph({ children, className = '' }: ParagraphProps) {
   return (
-    <p className={`text-gray-600 ${className}`}>{children}</p>
+    <p
+      // Texto con color gris medio, con clases adicionales opcionales para personalización
+      className={`text-gray-600 ${className}`}
+    >
+      {children}  // Renderiza el contenido pasado como hijos
+    </p>
   );
 }

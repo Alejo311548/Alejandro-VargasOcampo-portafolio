@@ -1,5 +1,7 @@
-// components/organisms/KnowledgeSection.tsx
+// Importa el componente de tarjeta de conocimiento desde la carpeta de moléculas
 import KnowledgeCard from '../molecules/KnowledgeCard';
+
+// Importa iconos desde react-icons/fi (Feather Icons)
 import { 
   FiCode, 
   FiDatabase, 
@@ -12,9 +14,10 @@ import {
   FiPackage
 } from 'react-icons/fi';
 
+// Define un array de objetos que representan cada habilidad técnica
 const knowledgeData = [
   {
-    icon: <FiCode className="text-yellow-500" size={28} />,
+    icon: <FiCode className="text-yellow-500" size={28} />,  // Icono + color + tamaño
     title: 'Desarrollo Back-end',
     description: 'Spring Boot, Laravel, Django, Node.js, APIs REST, GraphQL, JWT',
   },
@@ -60,10 +63,14 @@ const knowledgeData = [
   },
 ];
 
+// Componente principal que renderiza la sección de conocimientos técnicos
 export default function KnowledgeSection() {
   return (
     <section className="py-16 bg-gray-100 text-center">
+      {/* Título principal de la sección */}
       <h2 className="text-3xl font-bold mb-10 text-gray-800">Conocimientos Técnicos</h2>
+
+      {/* Contenedor flexible para alinear las tarjetas de conocimiento */}
       <div className="flex flex-wrap justify-center gap-8 px-4">
         {knowledgeData.map((item, index) => (
           <KnowledgeCard

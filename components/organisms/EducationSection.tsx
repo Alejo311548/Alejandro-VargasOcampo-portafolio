@@ -1,6 +1,8 @@
 // components/organisms/EducationSection.tsx
-import EducationCard from '../molecules/EducationCard';
 
+import EducationCard from '../molecules/EducationCard'; // Componente que muestra la información de una institución educativa
+
+// Lista de estudios completados
 const educationData = [
   {
     institution: 'Servicio Nacional de Aprendizaje - SENA',
@@ -24,6 +26,7 @@ const educationData = [
   },
 ];
 
+// Lista de estudios actualmente en curso
 const currentStudies = [
   {
     institution: 'Universidad de Antioquia',
@@ -41,11 +44,14 @@ const currentStudies = [
 export default function EducationSection() {
   return (
     <section className="py-16 bg-gray-50 text-center">
+      {/* Título principal de la sección */}
       <h2 className="text-3xl font-bold mb-10 text-gray-800">Educación</h2>
 
+      {/* Subtítulo para los estudios finalizados */}
       <h3 className="text-xl font-semibold text-gray-700 mb-6">Estudios Realizados</h3>
       <div className="flex flex-col gap-6 items-center mb-12">
         {educationData.map((item, index) => (
+          // Renderiza una tarjeta por cada estudio finalizado
           <EducationCard
             key={`done-${index}`}
             institution={item.institution}
@@ -55,9 +61,11 @@ export default function EducationSection() {
         ))}
       </div>
 
+      {/* Subtítulo para los estudios en curso */}
       <h3 className="text-xl font-semibold text-gray-700 mb-6">Estudios en Curso</h3>
       <div className="flex flex-col gap-6 items-center">
         {currentStudies.map((item, index) => (
+          // Renderiza una tarjeta por cada estudio actualmente en curso
           <EducationCard
             key={`current-${index}`}
             institution={item.institution}
