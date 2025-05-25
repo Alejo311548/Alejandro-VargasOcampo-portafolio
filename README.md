@@ -1,4 +1,4 @@
-# Portafolio Profesional - Alejandro Vargas Ocampo
+# Portafolio - Alejandro Vargas Ocampo
 
 ---
 
