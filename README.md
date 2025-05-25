@@ -23,15 +23,15 @@ Siga estos pasos para clonar y ejecutar el proyecto localmente:
 
    ```bash
    git clone https://github.com/Alejo311548/Alejandro-VargasOcampo-portafolio.git
-   cd tu-repositorio
+   
 
 2. Instalar las dependencias
-```bash
-npm install
+   ```bash
+   npm install
 
 3. Ejecutar la aplicación en modo desarrollo
-```bash
-npm run dev
+   ```bash
+   npm run dev
 
 4. Abrir el navegador y visualizar la aplicación
 http://localhost:3000
