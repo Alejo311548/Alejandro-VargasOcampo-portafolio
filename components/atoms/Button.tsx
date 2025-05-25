@@ -11,7 +11,7 @@ export default function Button({ children, onClick, className = '' }: ButtonProp
       // Clases CSS para el diseño visual del botón y efectos al pasar el mouse, más clases adicionales opcionales
       className={`bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 transition ${className}`}
     >
-      {children}  // Renderiza el contenido dentro del botón
+      {children}  
     </button>
   );
 }

@@ -9,7 +9,7 @@ export default function EduSubtitle({ children, className = '' }: EduSubtitlePro
       // Texto pequeño, color amarillo, fuente seminegrita y clases adicionales opcionales para personalización
       className={`text-sm text-yellow-500 font-semibold ${className}`}
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </span>
   );
 }

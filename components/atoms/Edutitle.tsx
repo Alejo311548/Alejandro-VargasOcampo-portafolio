@@ -9,7 +9,7 @@ export default function EduTitle({ children, className = '' }: EduTitleProps) {
       // Estilo de título: tamaño grande, fuente en negrita y color gris oscuro, con clases adicionales opcionales
       className={`text-lg font-bold text-gray-800 ${className}`}
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </h3>
   );
 }

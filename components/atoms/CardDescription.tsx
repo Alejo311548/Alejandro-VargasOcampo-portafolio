@@ -9,7 +9,7 @@ export default function CardDescription({ children, className = '' }: CardDescri
       // Texto pequeño y color gris, con clases adicionales opcionales para personalización
       className={`text-sm text-gray-600 ${className}`}
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </p>
   );
 }

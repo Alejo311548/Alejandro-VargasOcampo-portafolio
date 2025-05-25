@@ -9,7 +9,7 @@ export default function EduDescription({ children, className = '' }: EduDescript
       // Texto pequeño, color gris, margen superior para separación y clases adicionales opcionales
       className={`text-sm text-gray-600 mt-2 ${className}`}
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </p>
   );
 }

@@ -9,7 +9,7 @@ export default function CardTitle({ children, className = '' }: CardTitleProps) 
       // Estilo de título: tamaño grande, fuente seminegrita y color gris oscuro, con clases adicionales opcionales
       className={`text-lg font-semibold text-gray-800 ${className}`}
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </h3>
   );
 }

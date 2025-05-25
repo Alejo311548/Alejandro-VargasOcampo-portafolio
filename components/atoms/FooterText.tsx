@@ -9,7 +9,7 @@ export default function FooterText({ children, className = '' }: FooterTextProps
       // Texto pequeño, color gris claro, centrado y con clases adicionales opcionales para personalización
       className={`text-sm text-gray-400 text-center ${className}`}
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </p>
   );
 }

@@ -5,7 +5,7 @@ export default function SidebarTitle({ children }: { children: React.ReactNode }
       // margen superior y margen inferior para separación
       className="text-md font-semibold text-white mt-4 mb-1"
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </h3>
   );
 }

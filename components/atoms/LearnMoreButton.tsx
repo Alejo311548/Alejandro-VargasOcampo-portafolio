@@ -11,7 +11,7 @@ export default function LearnMoreButton({ onClick, className = '' }: LearnMoreBu
       // fuente seminegrita, padding y bordes redondeados, más clases opcionales
       className={`mt-4 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded ${className}`}
     >
-      Saber más  // Texto fijo que se muestra en el botón
+      Saber más  
     </button>
   );
 }

@@ -10,7 +10,7 @@ export default function Heading({ children, className = '' }: HeadingProps) {
       // con clases adicionales opcionales para personalización
       className={`text-3xl font-bold text-gray-900 ${className}`}
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </h1>
   );
 }

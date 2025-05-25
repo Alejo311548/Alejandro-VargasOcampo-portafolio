@@ -10,7 +10,7 @@ export default function PortfolioTitle({ children, className = '' }: PortfolioTi
       // con clases adicionales opcionales para personalización
       className={`text-lg font-semibold text-gray-800 ${className}`}
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </h3>
   );
 }

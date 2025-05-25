@@ -9,7 +9,7 @@ export default function Paragraph({ children, className = '' }: ParagraphProps) 
       // Texto con color gris medio, con clases adicionales opcionales para personalización
       className={`text-gray-600 ${className}`}
     >
-      {children}  // Renderiza el contenido pasado como hijos
+      {children}  
     </p>
   );
 }

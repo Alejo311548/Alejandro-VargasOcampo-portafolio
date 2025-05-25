@@ -10,7 +10,7 @@ export default function IconBox({ icon, className = '' }: IconBoxProps) {
       // con clases adicionales opcionales para personalización
       className={`text-yellow-500 text-4xl mb-4 ${className}`}
     >
-      {icon}  // Renderiza el ícono pasado como prop
+      {icon}  
     </div>
   );
 }
